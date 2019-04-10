@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  speedtest:
+    container_name: speedtest
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    network_mode: "host"

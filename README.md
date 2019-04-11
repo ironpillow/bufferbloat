@@ -1,3 +1,9 @@
+## running docker
+install docker on linux or macOS (I tested on macOS)
+`docker-compose up`
+
+Container should exit as soon as the test is completed and the resluts are shown in stdout.
+
 ## [betterspeedtest.sh](https://github.com/richb-hanover/OpenWrtScripts/blob/master/betterspeedtest.sh)
 
 The `betterspeedtest.sh` script emulates the web-based test performed by speedtest.net, but does it one better. While script performs a download and an upload to a server on the Internet, it simultaneously measures latency of pings to see whether the file transfers affect the responsiveness of your network. 

@@ -1,5 +1,6 @@
 ## running docker
-install docker on linux or macOS (I tested on macOS)
+install docker on linux or macOS (_I tested on macOS_)
+
 `docker-compose up`
 
 Container should exit as soon as the test is completed and the resluts are shown in stdout.
